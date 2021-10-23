@@ -1,0 +1,123 @@
+spawn(function()
+while true do wait(0.000001)
+print("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
+game.StarterGui:SetCore("SendNotification", {
+Title = "lol";
+Text = "you got troled niwg!!!a jojo siwa h8s u";
+Icon = "rbxassetid://346704066";
+Duration = 5;
+})
+end
+end)
+
+
+local trolling = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local ImageLabel_2 = Instance.new("ImageLabel")
+
+--Properties:
+
+trolling.Name = "trolling"
+trolling.Parent = game.CoreGui
+trolling.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = trolling
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(0.0347890444, 0, 0.196319014, 0)
+Frame.Size = UDim2.new(0, 1256, 0, 314)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Size = UDim2.new(0, 1019, 0, 111)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "YOUD BEEN TROLLED FOOL"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Position = UDim2.new(0.101114653, 0, 0.442675173, 0)
+ImageLabel.Size = UDim2.new(0, 454, 0, 165)
+ImageLabel.Image = "rbxassetid://346704066"
+
+ImageLabel_2.Parent = Frame
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.Position = UDim2.new(0.636942685, 0, 0.506369412, 0)
+ImageLabel_2.Size = UDim2.new(0, 434, 0, 145)
+ImageLabel_2.Image = "rbxassetid://6423659008"
+
+local trolling = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local ImageLabel_2 = Instance.new("ImageLabel")
+
+--Properties:
+
+trolling.Name = "trolling"
+trolling.Parent = game.CoreGui
+trolling.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = trolling
+Frame.BackgroundColor3 = Color3.fromRGB(101, 115, 62)
+Frame.Position = UDim2.new(0.495615125, 0, 0.45644173, 0)
+Frame.Size = UDim2.new(0, 609, 0, 299)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Position = UDim2.new(0.159277469, 0, 0.0580311418, 0)
+TextLabel.Size = UDim2.new(0, 265, 0, 48)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "ur brainless"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.0361248255, 0, 0.020066902, 0)
+ImageLabel.Size = UDim2.new(0, 63, 0, 64)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=6026568227"
+
+ImageLabel_2.Parent = Frame
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.103448279, 0, 0, 0)
+ImageLabel_2.Size = UDim2.new(0, 468, 0, 395)
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=6022668966"
+
+spawn(function()
+while true do wait(0.0000000000001)
+pcall(function()
+print("ban me plz ban me plz ban me plz")
+local randomnumber = math.random(0,50000)
+print(randomnumber)
+local randomPlayer = game.Players:GetPlayers()
+[math.random(1,#game.Players:GetPlayers())]
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = randomPlayer.Character.HumanoidRootPart.CFrame
+end)
+end
+end)
+
+spawn(function()
+while true do wait(3)
+pcall(function()
+local ohString1 = "omg i got bedwars unban"
+local ohString2 = "All"
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(ohString1, ohString2)
+end)
+end
+end)
+
+spawn(function()
+wait(15)
+game.Players.LocalPlayer:Kick("congrats on being brainless\n\nyou fell for it actually\nmessage me if ur a clown")
+end)
